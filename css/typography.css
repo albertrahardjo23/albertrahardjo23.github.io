@@ -1,0 +1,341 @@
+.typo1home h1 {
+  font-family: 'open sans', sans-serif;
+  font-size:80px;
+  text-align:center;
+  text-transform:uppercase;
+  letter-spacing:3px;
+  color:White
+}
+
+.typo2home h1 {
+  font-family: 'open sans', sans-serif;
+  font-size: 24px;
+  text-align:left;
+  color:black;
+}
+
+.typo3home,.typo3home1 p {
+  font-family: 'open sans', sans-serif;
+  font-size: 18px;
+  text-align:left;
+  color:black;
+}
+
+.typo1monospaced h1,.typo1goofy h1,.typo1maximsofpagelayout h1,.typo1widownorphanctrl h1  {
+  font-family: 'open sans', sans-serif;
+  font-size: 50px;
+  text-align:center;
+  text-transform:uppercase;
+  color:white;
+}
+.typo1monospaced h2,.typo1goofy h2,.typo1maximsofpagelayout h2,.typo1widownorphanctrl h2 {
+  font-family: 'open sans', sans-serif;
+  font-size: 38px;
+  font-style:italic;
+  text-align:center;
+  color:white;
+}
+
+.aboutmonospaced,.howtomaxims{
+  font-family: 'libre baskerville', serif, bold;
+  font-size: 24px;
+  text-align:center;
+  color:black;
+}
+.typo2monospaced,.lanjut_typo2{
+  font-family: 'open sans', sans-serif;
+  font-size: 18px;
+  text-align:left;
+  color:black;
+}
+.example_monospaced p{
+  font-family: 'PT Mono', monospace;
+  font-size: 24px;
+  text-align:left;
+  color:black;
+}
+.typo3mono{
+  font-family: 'open sans', sans-serif;
+  font-size: 18px;
+  text-align:left;
+  color:white;
+}
+.typo4mono{
+  font-family: 'open sans', sans-serif;
+  font-size: 12px;
+  text-align:left;
+  color:white;
+}
+.typo5mono h1{
+  font-family: 'libre baskerville', serif, bold;
+  font-style:bold;
+  text-transform:uppercase;
+  font-size: 24px;
+  text-align:left;
+  color:black;
+}
+
+.typo5mono p{
+  font-family: 'open sans', sans-serif;
+  font-size: 18px;
+  text-align:left;
+  color:black;
+}
+
+.clickhere{
+font-family: 'open sans', sans-serif;
+  font-size: 18px;
+  text-align:center;
+  color:black;
+  text-decoration: none;
+}
+
+.typo2goofy p{
+  font-family: 'open sans', sans-serif;
+  font-size: 18px;
+  text-align:left;
+  color:black;
+}
+
+.typo3goofy p{
+  font-family: 'open sans', sans-serif;
+  font-size: 18px;
+  text-align:left;
+  color:black;
+}
+
+.typo2maximsofpagelayout{
+  font-family: 'open sans', sans-serif;
+  font-size: 20px;
+  text-align:left;
+  color:black;
+}
+.typo3maxims h2{
+  font-family: 'open sans', sans-serif;
+  font-style:bold;
+  font-size: 20px;
+  text-align:left;
+  color:black;
+}
+.typo3maxims p{
+  font-family: 'open sans', sans-serif;
+  font-size: 18px;
+  text-align:left;
+  color:black;
+}
+.typo2widownorphanctrl p{
+   font-family: 'open sans', sans-serif;
+  font-size: 18px;
+  text-align:left;
+  color:black;
+}
+
+.howto h1{
+  font-family: 'libre baskerville', serif, bold;
+  font-style:bold;
+  text-transform:uppercase;
+  font-size: 20px;
+  text-align:left;
+  color:black;
+}
+
+.howto h2{
+  font-family: 'open sans', sans-serif;
+  font-style:bold;
+  text-transform:uppercase;
+  font-size: 18px;
+  text-align:left;
+  color:black;
+}
+
+.btw h1{
+  font-family: 'libre baskerville', serif, bold;
+  font-style:bold;
+  text-transform:uppercase;
+  font-size: 20px;
+  text-align:left;
+  color:black;
+}
+
+.btw p{
+  font-family: 'open sans', sans-serif;
+  font-size: 18px;
+  text-align:left;
+  color:black;
+}
+
+
+
+
+
+/**/
+@media (max-width: 649px) {
+main { width : 85vw
+}
+
+.typo1home h1 {
+  font-family: 'open sans', sans-serif;
+  font-size:40px;
+  text-align:center;
+  text-transform:uppercase;
+  letter-spacing:3px;
+  color:White
+}
+
+.typo2home h1 {
+  font-family: 'open sans', sans-serif;
+  font-size: 28px;
+  text-align:left;
+  color:black;
+}
+
+.typo3home,.typo3home1 p {
+  font-family: 'open sans', sans-serif;
+  font-size: 18px;
+  text-align:left;
+  color:black;
+}
+
+.typo1monospaced h1,.typo1goofy h1,.typo1maximsofpagelayout h1,.typo1widownorphanctrl h1  {
+  font-family: 'open sans', sans-serif;
+  font-size: 28px;
+  text-align:left;
+  text-transform:uppercase;
+  color:white;
+}
+.typo1monospaced h2,.typo1goofy h2,.typo1maximsofpagelayout h2,.typo1widownorphanctrl h2 {
+  font-family: 'open sans', sans-serif;
+  font-size: 20px;
+  font-style:italic;
+  text-align:left;
+  color:white;
+}
+
+.aboutmonospaced,.howtomaxims{
+  font-family: 'libre baskerville', serif, bold;
+  font-size: 26px;
+  text-align:center;
+  color:black;
+}
+.typo2monospaced,.lanjut_typo2{
+  font-family: 'open sans', sans-serif;
+  font-size: 18px;
+  text-align:left;
+  color:black;
+}
+.example_monospaced p{
+  font-family: 'PT Mono', monospace;
+  font-size: 20px;
+  text-align:left;
+  color:black;
+}
+.typo3mono{
+  font-family: 'open sans', sans-serif;
+  font-size: 18px;
+  text-align:left;
+  color:white;
+}
+.typo4mono{
+  font-family: 'open sans', sans-serif;
+  font-size: 16px;
+  text-align:left;
+  color:black;
+}
+.typo5mono h1{
+  font-family: 'libre baskerville', serif, bold;
+  font-style:bold;
+  text-transform:uppercase;
+  font-size: 24px;
+  text-align:left;
+  color:black;
+}
+
+.typo5mono p{
+  font-family: 'open sans', sans-serif;
+  font-size: 18px;
+  text-align:left;
+  color:black;
+}
+
+.clickhere{
+font-family: 'open sans', sans-serif;
+  font-size: 20px;
+  text-align:center;
+  color:black;
+  text-decoration:none;
+}
+
+.typo2goofy p{
+  font-family: 'open sans', sans-serif;
+  font-size: 18px;
+  text-align:left;
+  color:black;
+}
+
+.typo3goofy p{
+  font-family: 'open sans', sans-serif;
+  font-size: 18px;
+  text-align:left;
+  color:black;
+}
+
+.typo2maximsofpagelayout{
+  font-family: 'open sans', sans-serif;
+  font-size: 18px;
+  text-align:left;
+  color:black;
+}
+.typo3maxims h2{
+  font-family: 'open sans', sans-serif;
+  font-style:bold;
+  font-size: 20px;
+  text-align:left;
+  color:black;
+}
+.typo3maxims p{
+  font-family: 'open sans', sans-serif;
+  font-size: 18px;
+  text-align:left;
+  color:black;
+}
+.typo2widownorphanctrl p{
+   font-family: 'open sans', sans-serif;
+  font-size: 18px;
+  text-align:left;
+  color:black;
+}
+
+.howto h1{
+  font-family: 'libre baskerville', serif, bold;
+  font-style:bold;
+  text-transform:uppercase;
+  font-size: 20px;
+  text-align:left;
+  color:black;
+}
+
+.howto h2{
+  font-family: 'open sans', sans-serif;
+  font-style:bold;
+  text-transform:uppercase;
+  font-size: 18px;
+  text-align:left;
+  color:black;
+}
+
+.btw h1{
+  font-family: 'libre baskerville', serif, bold;
+  font-style:bold;
+  text-transform:uppercase;
+  font-size: 20px;
+  text-align:left;
+  color:black;
+}
+
+.btw p{
+  font-family: 'open sans', sans-serif;
+  font-size: 18px;
+  text-align:left;
+  color:black;
+}
+}

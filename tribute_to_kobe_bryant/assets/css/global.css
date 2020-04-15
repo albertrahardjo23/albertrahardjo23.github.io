@@ -1,0 +1,884 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html {
+scroll-behavior: smooth;
+}
+.navweb{
+    display: block;
+}
+.sidenav{
+	display: none;
+}
+span{
+	display: none;
+}
+nav {
+  margin-top: 0;
+  width: 100%;
+  height: 13%;
+  background-image: linear-gradient(to bottom, #fcac2d, transparent);
+  position: fixed;
+  z-index: 10;
+}
+nav :hover{
+    color: rgb(84,45,131);
+}
+.grid {
+	width: 50%;
+	height: 100%;
+	padding-top:2%;
+	padding-right:1%;
+	background-color: transparent;
+	display: grid;
+	float: right;
+	grid-template-columns: auto auto auto auto;
+	grid-template-areas: 'NBA Stats Summary Biography Carrer Achievement';
+	grid-template-rows: auto;
+	grid-column-gap: 10px;
+}
+.logonav{
+    margin-top: 1%;
+    margin-left: 40px;
+    float: left;
+    width: 10vw;
+    height: 80px;
+    z-index: 10;
+}
+section.full {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/bghome1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.line{
+  display:block;
+  width:25%;
+  height:100%;
+  position:absolute;
+  float:left;
+  margin-left:4%;
+  margin-right:4%;
+  bottom:0px;
+}
+.garis{
+  display:block;
+  width:5%;
+  height:30%;
+  background-color:white;
+  position:absolute;
+  bottom:0px;
+  margin-left:20%;
+}
+.follow{
+  transform:rotate(-90deg);
+  display:block;
+  color:white;
+  position:absolute;
+  bottom:41%;
+  padding-bottom:3%;
+}
+.iconfollow{
+  display:block;
+  width:20%;
+  bottom:50%;
+  position:absolute;
+  height:13%;
+  padding-left:15.5%;
+}
+.cardbutton{
+  display:block;
+  width:72%;
+  height:100%;
+  position:absolute;
+  float:left;
+  left:50px;
+  bottom:20px
+}
+.button{
+  width:50%;
+  padding-top:60%;
+  padding-left:54%;
+}
+.gotointro{
+  width: 30%;
+  height: auto;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-align: center;
+  background-color: white; opacity: 0.8;
+  border-radius: 25px;
+  text-decoration: none;
+  text-decoration-style: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.gotointro:hover{
+  background-color: #fcac2d;
+  text-decoration-style: none;
+  text-decoration: none;
+
+}
+section.introduction{
+  width:100%;
+  height:100vh;
+  background-color:white;
+  display:block;
+  background-size:contain;
+}
+.backgroundkiri{
+  top:180px;
+  float:left;
+  display:block;
+  background-color:#542d83;
+  background-size:contain;
+  width:600px;
+  height:300px;
+  margin-right:40px;
+  margin-top:180px;
+}
+.intro{
+  width:36%;
+  float:left;
+  margin-right:70px;
+  padding-top:180px;
+}
+.imageintro{
+  width: 100px;
+  height: 100px;
+  top:-70px;
+  margin-left:10%;
+  animation-name: intro1;
+  animation-duration: 5s;
+  position: relative;
+  animation-iteration-count: 4;
+}
+@keyframes intro1 {
+  from {bottom: 100px}
+  to {top: -125px}
+}
+section.nba_stats1{
+  width:100%;
+  height:100vh;
+  background-size:cover;
+  background-color:white;
+  display:block;
+}
+.button2{
+  padding-top:10%;
+  text-decoration:none;
+}
+.kestats{
+  width: 50%;
+  height: auto;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-decoration:none;
+  text-align: center;
+  background-color: #fcac2d; opacity: 0.8;
+  border-radius: 25px;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+}
+.kestats:hover{
+  background-color: #fcac2d;opacity:1
+}
+.card_left{
+  float:left;
+  width:37%;
+  margin-right:3%;
+  margin-left:8%;
+  margin-top:12%;
+  animation: mymove 5s 1;
+  animation-timing-function: ease-in-out;
+}
+.card_right{
+  float:right;
+  background-color:#fcac2d;
+  background-size:contain;
+  position:relative;
+  width:52%;
+  height:450px;
+  margin-top:120px;
+  animation: mymove 5s 3;
+  animation-timing-function: ease-in-out;
+  animation-delay: 5s;
+
+}
+@keyframes mymove{
+  from {left:52%;}
+  to {left:0%;}
+}
+.image1{
+  margin-top:-70px;
+  margin-right:2%;
+}
+section.biography1{
+  width:100%;
+  height:100vh;
+  background-size:cover;
+  background-color:white;
+  display:block;
+}
+.card1{
+  float:left;
+  display:block;
+  margin-right:2%;
+  margin-top:8%;
+  background-color:#fcac2d;
+  background-size:contain;
+  width:42%;
+  height:5%;
+}
+.header_bio{
+  float:left;
+  padding-top:8%;
+  width:12%;
+  padding-right:2%;
+  margin-right:42%;
+}
+.grid2{
+  width: 40%;
+	height: 5%;
+	padding-top:3%;
+	margin-right:auto;
+	margin-left:auto;
+	background-color: transparent;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-areas: 'Childhood HighSchool Lakers';
+	grid-template-rows: auto;
+	grid-column-gap: 10px;
+}
+.grid2:hover{
+ color:#fcac2d;
+}
+.card2{
+  float:left;
+  background-color:#fcac2d;
+  background-size:contain;
+  width:28%;
+  height:63%;
+  margin-top:30px;
+  margin-left:15%;
+}
+.slideshow-container{
+  width:80%;
+  height:50%;
+  position:absolute;
+  margin-left:15%;
+  margin-top:5%;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: #542d83;opacity:1
+  color: white;
+}
+.myslides{
+  width:80%;
+  height:50%;
+  position:absolute;
+  margin-left:7%;
+  margin-top:8%;
+  display:none;
+}
+#content1lakers,#content1highschool{
+  display:none;
+}
+#contentchildhood{
+  display:block;
+}
+section.career1{
+  width:100%;
+  height:100vh;
+  background-size:cover;
+  background-color:white;
+  display:block;
+}
+.header_career{
+  float:right;
+  padding-top:8%;
+  width:12%;
+  padding-left:2%;
+  margin-left:42%;
+}
+.card3{
+  float:right;
+  display:block;
+  margin-left:2%;
+  margin-top:8%;
+  background-color:#fcac2d;
+  background-size:contain;
+  width:42%;
+  height:5%;
+}
+.card4{
+  float:left;
+  display:block;
+  background-color:#542d83;
+  background-size:contain;
+  width:600px;
+  height:300px;
+  margin-right:40px;
+  margin-top:120px;
+}
+.cardcontent{
+  width:36%;
+  padding-top:180px;
+  float:left;
+  display:block;
+}
+.imgcareer{
+  margin-top:-125px;
+  margin-left:120px;
+  position:relative;
+  animation: move5 5s 3;
+  animation-timing-function: ease-in-out;
+  animation-delay: 7s;
+}
+@keyframes move5{
+  from {right:600px;}
+  to {right:0;}
+}
+section.achievement1{
+  width:100%;
+  height:100vh;
+  background-size:cover;
+  background-color:white;
+  display:block;
+}
+.header_achievement{
+  float:left;
+  padding-top:8%;
+  width:12%;
+  padding-right:2%;
+  margin-right:42%;
+}
+.cardachieve{
+  float: left;
+  display: block;
+  background-size: contain;
+  width: 90%;
+  height: 60%;
+  margin-left:5%;
+  margin-right: 5%;
+  margin-top: 90px;
+}
+.achievementimg {
+  margin: 5px;
+  border: 1px solid #542d83;
+  float: left;
+  width: 177px;
+}
+.achievementimg:hover {
+  border: 1px solid #fcac2d;
+}
+.achievementimg img {
+  width: 100%;
+  height: auto;
+}
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+section.footer{
+  background-color: #fcac2d;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  min-height: 22vh;
+}
+.gridfooter {
+	width: 70%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-template-areas: 'explore about information cc';
+	grid-template-rows: auto;
+	grid-gap: 40px;
+}
+.explore a:hover,.official a:hover{
+  color:purple;
+}
+  
+@media only screen and (max-width: 768px) {
+* {
+	margin: 0;
+	padding: 0;
+}
+span{
+	font-size:30px;
+	cursor: pointer;
+	padding-left: 20px;
+	padding-top:10px;
+	color: grey;
+	display: block;
+	z-index: 10;
+	position: fixed;
+}
+span *{
+  align-items: center;
+  display: inline-block;
+}
+.sidenav {
+	height: 100vh;
+	width: 0;
+	position: fixed;
+	display:block;
+	z-index: 11;
+	top: 0;
+	left: 0;
+	background-color:#fcac2d;
+	border-bottom-right-radius: 70px;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 15px;
+}
+.sidenav * {
+	padding: 14px 7px 8px 20px;
+	text-decoration: none;
+	font-size: 18px;
+  color:white;
+  font-family: 'open sans', sans-serif;
+	display: block;
+	transition: 0.25s;
+}
+.sidenav *:hover{
+	color: #542d83;
+}
+.sidenav .closebtn {
+  position:absolute;
+	top: 0;
+	right: 10px;
+	font-size: 20px;
+	margin-left: 50px;
+}
+.logonav2{
+  margin-top: 0;
+  margin-left: 150px;
+  padding-left: 0;
+  float: right;
+  width: 15vw;
+  height: 50px;
+  z-index: 11;
+}
+.logonav2 *{
+  margin-left: 22vw;
+  max-width: 100%;
+  max-width: 100%;
+}
+.navweb{
+  display: none;
+}
+.logonav{
+  margin-top: 1%;
+  margin-left: 40px;
+  float: left;
+  width: 10vw;
+  height: 80px;
+  z-index: 10;
+}
+section.full {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../img/homehp.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.line{
+  display:block;
+  width:25%;
+  height:100%;
+  position:absolute;
+  float:left;
+  margin-left:4%;
+  margin-right:4%;
+  bottom:0px;
+}
+.garis{
+  display:block;
+  width:5%;
+  height:30%;
+  background-color:white;
+  position:absolute;
+  bottom:0px;
+  margin-left:20%;
+}
+.follow{
+  transform:rotate(-90deg);
+  display:block;
+  color:white;
+  position:absolute;
+  bottom:38%;
+  margin-left:-40%;
+}
+.iconfollow{
+  display:block;
+  width:20%;
+  bottom:40%;
+  position:absolute;
+  height:13%;
+  padding-left:2%;
+}
+.cardbutton{
+  display:block;
+  width:72%;
+  height:100%;
+  position:absolute;
+  float:left;
+  left:50px;
+  bottom:20px
+}
+.button{
+  width:70%;
+  margin-top:100%;
+  padding-top:300px;
+  padding-left:40%;
+}
+.gotointro{
+  width: 60%;
+  height: auto;
+  padding-top: 4%;
+  padding-bottom: 5%;
+  text-align: center;
+  background-color: white; opacity: 0.8;
+  border-radius: 20px;
+  text-decoration: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.gotointro:hover{
+  background-color: #fcac2d;
+}
+section.introduction{
+  width:100%;
+  height:100vh;
+  background-color:white;
+  display:block;
+  background-size:contain;
+}
+.backgroundkiri{
+  float:left;
+  display:block;
+  background-color:#542d83;
+  background-size:contain;
+  width:100%;
+  height:300px;
+  margin-right:40px;
+  margin-top:100px;
+}
+.intro{
+  width:75%;
+  float:left;
+  margin-left:15%;
+  padding-top:40px;
+}
+.imageintro{
+  width: 100%;
+  height: 100px;
+  top:-50px;
+  margin-left:0%;
+}
+.imageintro *{
+  width:350px;
+  height: 350px;
+  margin-left:-30px;
+  animation-name: intro1;
+  animation-duration: 4s;
+  position: relative;
+  animation-iteration-count: 2;
+}
+@keyframes intro1 {
+  from {top: -30px}
+  to {bottom: 40px}
+}
+section.nba_stats1{
+  width:100%;
+  height:100vh;
+  background-size:cover;
+  background-color:white;
+  display:block;
+}
+.button2{
+  padding-top:8%;
+  text-decoration:none;
+}
+.kestats{
+  width: 70%;
+  height: auto;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-decoration:none;
+  text-align: center;
+  background-color: #fcac2d; opacity: 0.8;
+  border-radius: 25px;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+}
+.kestats:hover{
+  background-color: #fcac2d;opacity:1
+}
+.card_left{
+  float:left;
+  width:60%;
+  margin-left:15%;
+  margin-right:3%;
+  margin-top:12%;
+}
+.card_right{
+  float:right;
+  background-color:#fcac2d;
+  background-size:contain;
+  width:65%;
+  height:140px;
+  margin-top:8%;
+  animation: mymove 5s 3;
+  animation-timing-function: ease-in-out;
+  animation-delay: 5s;
+}
+@keyframes mymove{
+  from {left:65%;}
+  to {left:0%;}
+}
+.image1{
+  margin-top:-50px;
+  margin-right:4%;
+}
+.image1 *{
+  width:220px;
+  height: 220px;
+  margin-left:5px;
+}
+section.biography1{
+  width:100%;
+  height:100vh;
+  background-size:cover;
+  background-color:white;
+  display:block;
+}
+.card1{
+  float:left;
+  display:block;
+  margin-right:2%;
+  margin-top:8%;
+  background-color:#fcac2d;
+  background-size:contain;
+  width:30%;
+  height:5%;
+}
+.header_bio{
+  float:left;
+  padding-top:8%;
+  width:36%;
+  padding-right:2%;
+  margin-right:30%;
+}
+.grid2{
+  width:80%;
+	height: 5%;
+	padding-top:3%;
+	margin-right:auto;
+	margin-left:auto;
+	background-color: transparent;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-areas: 'Childhood HighSchool Lakers';
+	grid-template-rows: auto;
+	grid-column-gap: 10px;
+}
+.content{
+  width:70%;
+  height:40%;
+  	overflow-x: hidden;
+}
+.card2{
+  float:left;
+  background-color:#fcac2d;
+  background-size:fixed;
+  width:40%;
+  height:78%;
+  margin-top:30px;
+  margin-left:15%;
+}
+.slideshow-container{
+  width:85%;
+  height:80%;
+  position:absolute;
+  margin-left:15%;
+  margin-top:8%;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: #542d83;opacity:1
+  color: white;
+}
+.myslides{
+  width:75%;
+  height:50%;
+  position:absolute;
+  margin-left:12%;
+  margin-top:35%;
+  display:none;
+}
+#content1lakers,#content1highschool{
+  display:none;
+}
+#contentchildhood{
+  display:block;
+}
+section.career1{
+  width:100%;
+  height:100vh;
+  background-size:cover;
+  background-color:white;
+  display:block;
+}
+.header_career{
+  float:right;
+  padding-top:8%;
+  width:36%;
+  padding-left:2%;
+  margin-left:30%;
+}
+.card3{
+  float:right;
+  display:block;
+  margin-left:2%;
+  margin-top:8%;
+  background-color:#fcac2d;
+  background-size:contain;
+  width:30%;
+  height:5%;
+}
+.card4{
+  float:left;
+  display:block;
+  background-color:#542d83;
+  background-size:contain;
+  width:100%;
+  height:300px;
+  margin-top:80px;
+}
+.cardcontent{
+  width:75%;
+  padding-top:40px;
+  float:left;
+  margin-left:15%;
+  display:block;
+}
+.imgcareer{
+  margin-top:-50px;
+  position:relative;
+  animation: move5 5s 3;
+  animation-timing-function: ease-in-out;
+  animation-delay: 7s;
+}
+@keyframes move5{
+  from {right:350px;}
+  to {right:0;}
+}
+.imgcareer *{
+  width:300px;
+  height:400px;
+  margin-left:-100px;
+}
+section.achievement1{
+  width:100%;
+  height:100vh;
+  background-size:cover;
+  background-color:white;
+  display:block;
+}
+.header_achievement{
+  float:left;
+  padding-top:8%;
+  width:36%;
+  padding-right:2%;
+  margin-right:30%;
+}
+.cardachieve{
+  float: left;
+  display: block;
+  background-size: contain;
+  width: 70%;
+  height: 850px;
+  margin-left:15%;
+  margin-right: 15%;
+  margin-top: 20px;
+}
+.achievementimg {
+  margin: 5px;
+  border: 1px solid #542d83;
+  float: left;
+  width: 110px;
+}
+.achievementimg:hover {
+  border: 1px solid #fcac2d;
+}
+.achievementimg img {
+  width: 100%;
+  height: auto;
+}
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+section.footer{
+  background-color: #fcac2d;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  min-height: 22vh;
+}
+.gridfooter {
+	width: 70%;
+	height: 100%;
+	margin-left: 10%;
+	margin-right: auto;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-template-areas: 'explore about information copyright';
+	grid-template-rows: auto;
+	grid-gap: 20px;
+}
+.explore a:hover,.official a:hover{
+  color:purple;
+}

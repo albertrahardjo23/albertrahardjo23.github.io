@@ -1,0 +1,288 @@
+nav *{
+  font-family: 'open sans', sans-serif;
+  font-style: bold;
+  color: white;
+  text-align: center;
+  transition: 0.25s;
+  text-decoration: none;
+  font-size: 20px;
+  position: none;
+}
+.follow{
+  font-family: 'Open sans', sans-serif;
+  color: white;
+  font-weight:bold;
+  text-align: left;
+  text-decoration: none;
+  font-size: 16px;
+}
+.gotointro p{
+  font-family: 'Open sans', sans-serif;
+  color: purple;
+  font-weight:bold;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+}
+.intro h1{
+  font-family: 'Open sans', sans-serif;
+  color: purple;
+  font-weight:normal;
+  text-align: left;
+  text-decoration: none;
+  font-size: 22px;
+}
+.kestats{
+  font-family: 'Open sans', sans-serif;
+  color: white;
+  font-weight:bold;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+.stats_text h1 {
+  font-family: 'Brandon Grotesque', sans-serif;
+  font-weight: lighter;
+  color: purple;
+  text-align: left;
+  text-decoration: none;
+  font-size: 36px;
+  line-height: 1.0;
+}
+.stats_text h2 {
+  font-family: 'Brandon Grotesque', sans-serif;
+  font-weight: Bold;
+  color: purple;
+  text-align: left;
+  text-decoration: none;
+  font-size: 36px;
+}
+.stats_text p {
+  font-family: 'Open sans', sans-serif;
+  color: purple;
+  text-align: left;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.header_bio h1,.header_achievement h1{
+  font-family: 'Brandon Grotesque', sans-serif;
+  font-weight: Bold;
+  text-transform: uppercase;
+  color: purple;
+  text-align: center;
+  text-decoration: none;
+  font-size: 28px;
+}
+.myslides h1{
+  font-family: 'Brandon Grotesque', sans-serif;
+  color:purple;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+  text-decoration: none;
+  font-size: 38px;
+}
+.myslides p{
+  font-family: 'Open Sans', sans-serif;
+  color:purple;
+  font-weight: normal;
+  text-align: justify;
+  text-decoration: none;
+  font-size: 20px;
+}
+.header_career h1{
+  font-family: 'Brandon Grotesque', sans-serif;
+  font-weight: Bold;
+  text-transform: uppercase;
+  color: purple;
+  text-align: center;
+  text-decoration: none;
+  font-size: 28px;
+}
+.cardcontent{
+  font-family: 'Open sans', sans-serif;
+  color: purple;
+  font-weight:normal;
+  text-align: justify;
+  text-decoration: none;
+  font-size: 20px;
+}
+.grid2{
+  font-family: 'Brandon Grotesque', sans-serif;
+  color:purple;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+}
+.desc{
+  font-family: 'Open sans', sans-serif;
+  color:purple;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+.explore h1,.official h1,.info h1,.copyright h1{
+  font-family: 'Brandon Grotesque', sans-serif;
+  color:Purple;
+  font-weight: Bold;
+  text-transform: uppercase;
+  text-align: left;
+  text-decoration: none;
+  font-size: 24px;
+}
+.explore a,.official a,.info p{
+  font-family: 'Open sans', sans-serif;
+  color:#4c4c4c;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: left;
+  text-decoration: none;
+  font-size: 14px;
+}
+.copyright p{
+  font-family: 'Open sans', sans-serif;
+  color:purple;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: left;
+  text-decoration: none;
+  font-size: 14px;
+}
+@media only screen and (max-width: 768px) {
+* {
+	margin: 0;
+	padding: 0;
+}
+.gotointro p{
+  font-family: 'Open sans', sans-serif;
+  color: purple;
+  font-weight:bold;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+.intro h1{
+  font-family: 'Open sans', sans-serif;
+  color: purple;
+  font-weight:normal;
+  text-align: justify;
+  text-decoration: none;
+  font-size: 17px;
+}
+.kestats{
+  font-family: 'Open sans', sans-serif;
+  color: white;
+  font-weight:bold;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+.stats_text h1 {
+  font-family: 'Brandon Grotesque', sans-serif;
+  font-weight: lighter;
+  color: purple;
+  text-align: left;
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 1.0;
+}
+.stats_text h2 {
+  font-family: 'Brandon Grotesque', sans-serif;
+  font-weight: Bold;
+  color: purple;
+  text-align: left;
+  text-decoration: none;
+  font-size: 17px;
+}
+.stats_text p {
+  font-family: 'Open sans', sans-serif;
+  color: purple;
+  text-align: left;
+  text-decoration: none;
+  font-size: 17px;
+  line-height: 1.5;
+}
+.header_bio h1,.header_achievement h1{
+  font-family: 'Brandon Grotesque', sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: purple;
+  text-align: center;
+  text-decoration: none;
+  font-size: 22px;
+}
+.grid2{
+  font-family: 'Brandon Grotesque', sans-serif;
+  color:yellow;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+.myslides h1{
+  font-family: 'Brandon Grotesque', sans-serif;
+  color:purple;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+  text-decoration: none;
+  font-size: 24px;
+}
+.myslides p{
+  font-family: 'Open Sans', sans-serif;
+  color:purple;
+  font-weight: normal;
+  text-align: justify;
+  text-decoration: none;
+  font-size: 17px;
+}
+.header_career h1{
+  font-family: 'Brandon Grotesque', sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: purple;
+  text-align: center;
+  text-decoration: none;
+  font-size: 22px;
+}
+.cardcontent{
+  font-family: 'Open Sans', sans-serif;
+  color:purple;
+  font-weight: normal;
+  text-align: justify;
+  text-decoration: none;
+  font-size: 17px;
+}
+.explore h1,.official h1,.info h1,.copyright h1{
+  font-family: 'Brandon Grotesque', sans-serif;
+  color:Purple;
+  font-weight: Bold;
+  text-transform: uppercase;
+  text-align: left;
+  text-decoration: none;
+  font-size: 14px;
+}
+.explore a,.official a,.info p{
+  font-family: 'Open sans', sans-serif;
+  color:#4c4c4c;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: left;
+  text-decoration: none;
+  font-size: 10px;
+}
+.copyright p{
+  font-family: 'Open sans', sans-serif;
+  color:purple;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: left;
+  text-decoration: none;
+  font-size: 10px;
+}
